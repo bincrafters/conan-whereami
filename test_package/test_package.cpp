@@ -1,5 +1,6 @@
-#include "whereami.h"
 #include <iostream>
+
+#include "whereami.h"
 
 int main() {
   int length = wai_getExecutablePath(NULL, 0, NULL);
