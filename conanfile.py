@@ -8,7 +8,7 @@ class WhereamiConan(ConanFile):
     name = "whereami"
     version = "20170107"
     description = "Locate the current executable and the current module/library on the file system"
-    topics = ("conan", "whereami", "c", "introspection", "getmodulefilename",
+    topics = ("conan", "whereami", "introspection", "getmodulefilename",
               "dladdr", "executable-path", "getexecutablepath")
     url = "https://github.com/bincrafters/conan-whereami"
     homepage = "https://github.com/gpakosz/whereami"
