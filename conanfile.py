@@ -6,7 +6,7 @@ import os
 
 class WhereamiConan(ConanFile):
     name = "whereami"
-    version = "20170107"
+    version = "20190107"
     description = "Locate the current executable and the current module/library on the file system"
     topics = ("conan", "whereami", "introspection", "getmodulefilename",
               "dladdr", "executable-path", "getexecutablepath")
