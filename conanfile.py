@@ -10,7 +10,6 @@ class WhereamiConan(ConanFile):
               "dladdr", "executable-path", "getexecutablepath")
     url = "https://github.com/bincrafters/conan-whereami"
     homepage = "https://github.com/gpakosz/whereami"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "MIT"
     exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
