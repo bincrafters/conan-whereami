@@ -11,7 +11,6 @@ class WhereamiConan(ConanFile):
     url = "https://github.com/bincrafters/conan-whereami"
     homepage = "https://github.com/gpakosz/whereami"
     license = "MIT"
-    exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
     generators = "cmake"
     settings = "os", "arch", "compiler", "build_type"
